@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="container">
+        <div class="info">
+            <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+        <form class="formulario" id="form">
+            <input type="text" name="nome" placeholder="Nome completo *" class="informacao" id="user">
+            <input type="email" name="email" placeholder="Email *" class="informacao" id="emailPessoal">
+            <input type="tel" name="telefone" placeholder="Telefone *" class="informacao" id="phone">
+            <textarea placeholder="Mensagem *" class="informacao mensagem" id="mensagemCariosa"></textarea>
+            <p class="obrigacao">*Campo Obrigatório</p>
+            <button type="submit">ENVIAR</button>
+        </form>
+    </main>
+    <script defer src="src/js/script.js"></script>
+</body>
+</html>

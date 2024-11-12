@@ -1,0 +1,102 @@
+body{
+    background-image: url(../imagens/bg-repeat.jpg);
+    background-size: contain;
+    background-position:center center;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.info{
+    font-family: 'roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    width: 40rem;
+    height: 200px;
+    color: #ffffff;
+}
+
+.info h1{
+    font-weight: 700;
+}
+
+.info p{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    width: 660px;
+    height: 50%;
+}
+
+.formulario .informacao{
+    font-family: 'roboto', sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 600px;
+    height: 70px;
+}
+
+.formulario .mensagem{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 100px;
+}
+
+
+.formulario .obrigacao {
+    text-align: left; 
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    width: 600px; 
+}
+button{
+    background-color: #3CCC87;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    width: 500px;
+    height: 50px;
+    transition: 0.2s ease-out;
+}
+
+button:hover{
+    font-size: 13px;
+    border: 1px solid #268155;
+}
+
+.valido {
+    border: 2px solid green !important;
+}
+
+.invalido {
+    border: 2px solid red !important;
+}
+
+.formulario .informacao,
+.formulario .mensagem {
+    border: 2px solid black;
+    transition: border 0.3s ease; 
+}
